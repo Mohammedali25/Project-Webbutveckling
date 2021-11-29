@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  
+    background-color: #87CEFA;
+}
+header {
+  text-align: center;
+  background-color: rgb(1, 87, 247);
+  color: #000000;
+  padding: 25px;
+}
+.tutorial {
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  justify-content: center;
+  color: rgb(15, 4, 77);
+  
+}
+
+.color {
+  background-color: #87CEFA;
+  height: 100%;
+}
+.advanced {
+  display: flex;
+  text-decoration: none;
+  color: #0157f7;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+  font-size: larger;
+}
+.main-bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+  bottom: 0;
+  position: absolute;
+  font-size: large;
+}
+.ranking {
+  text-decoration: none;
+  color: #0157f7;
+}
+.fun-facts {
+  text-decoration: none;
+  color: #0157f7;
+ 
+}
+.tutorial {
+  color: #0157f7;
+}
+#cf {
+  position: relative;
+  height: 281px;
+  width: 450px;
+  margin: 0 auto;
+}
+
+.img-container img {
+  width: 25%;
+}
+
+.img-container img.top {
+  animation-name: FadingPicture;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.img-container img.bottom {
+  animation-name: FadingPicture;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: -2s;
+}
+
+.img-container img.bottomright {
+    animation-name: FadingPicture;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+   
+  }
+
+  .img-container img.topright {
+    animation-name: FadingPicture;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: -2s;
+}
+@keyframes FadingPicture {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#cf3 img.top {
+  animation-name: FadingPicture;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  animation-direction: alternate;
+  
+}
+.color2 {
+  background-color: #87CEFA;
+  height: 100%;
+}
